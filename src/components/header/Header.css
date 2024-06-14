@@ -1,5 +1,3 @@
-/* Header.css */
-
 .App-header {
     background-color: #141414;
     border-bottom: 2px solid #71009b;
@@ -17,11 +15,6 @@
   }
   header {
     text-align: center;
-    /* padding: 20px; */
-    
-    
-    
-    /* font-family: Arial; */
     font-size: 24px;
   }
 
@@ -35,7 +28,6 @@
     color: #fff;
 }
 .App-header button {
-    /* padding: 8px 16px; */
     color: #fff;
     background-color: #ba00ff;
     border: none;

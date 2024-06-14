@@ -55,6 +55,8 @@ const MovieList = ({query, filter}) => {
         setSelectedMovie(null); // close the modal by resetting the selected movie
     }
 
+    
+
     return (
         <>
         <div className="MovieList">

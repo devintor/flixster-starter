@@ -5,9 +5,6 @@ import './MovieCard.css'
 
 
 const MovieCard = ({ title, poster, rating, overview }) => {
-    // const poster = `https://image.tmdb.org/t/p/w500${props.poster}`
-    // const poster = `https://api.themoviedb.org/3/movie/${props.ident}/images`
-    
     const [isFavorited, setIsFavorited] = useState(false);
     const [isWatched, setIsWatched] = useState(false);
     const toggleFavorite = () => {

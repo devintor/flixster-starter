@@ -3,7 +3,6 @@
     border: none;
     width: 320px;
     height: 484px;
-    /* margin-right: 5px; */
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0,0,0,0.8);
     color: #654c4c; /* Light text color */
@@ -19,11 +18,6 @@
     }
 
     .MovieInfo {
-        /* text-align: center; */
-        /* color: #181818; */
-        /* display: none; */
-        /* transition: all 0.2s ease; */
-        
         position: absolute;
         top: 0;
         left: 0;
@@ -33,7 +27,6 @@
         color: white;
         padding: 20px;
         box-sizing: border-box;
-        /* display: none; */
         opacity: 0;
         transition: opacity 0.2s ease;
         overflow: scroll;
@@ -58,8 +51,6 @@
         z-index: 1;
         
         .MovieInfo {
-            /* color: #fff;*/
-            /* display:inline; */
             opacity: 1;
             
         }
