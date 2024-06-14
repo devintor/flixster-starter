@@ -16,9 +16,7 @@ const MovieList = ({query, filter}) => {
 
     const fetchMovies = async () => {
         const apiKey = `dca23ffe8c65106addc1986590090072`;
-        const url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&sort_by=${filter}&page=${page}`;
-
-        
+        let url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&sort_by=${filter}&page=${page}`;
 
         if (query) {
             url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(query)}&page=${page}`
