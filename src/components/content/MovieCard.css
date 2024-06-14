@@ -1,0 +1,69 @@
+.MovieCard {
+    background-color: #181818; /* Dark card background */
+    border: none;
+    width: 320px;
+    height: 484px;
+    /* margin-right: 5px; */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    color: #654c4c; /* Light text color */
+    overflow: hidden; /* Ensures no overflow */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.2s ease;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures cover fits well */    
+    }
+
+    .MovieInfo {
+        /* text-align: center; */
+        /* color: #181818; */
+        /* display: none; */
+        /* transition: all 0.2s ease; */
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.85);
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        /* display: none; */
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        overflow: scroll;
+
+        .Rating {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: 30px;
+
+            background-color: #bb00ff7e;
+            padding: 5px 10px; /* Padding inside the rating box */
+            border-radius: 12px; /* Rounded corners for the rating box */
+            font-size: 16px; /* Font size for the rating text */
+            font-weight: bold; /* Font weight for the rating text */
+            color: #fff;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        z-index: 1;
+        
+        .MovieInfo {
+            /* color: #fff;*/
+            /* display:inline; */
+            opacity: 1;
+            
+        }
+
+        
+    }
+}
