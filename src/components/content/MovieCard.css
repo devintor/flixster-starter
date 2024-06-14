@@ -67,3 +67,21 @@
         
     }
 }
+
+.MovieCard .MovieInfo label {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ccc;
+    color: #333;
+}
+.MovieCard .MovieInfo .favorited {
+    background-color: #ff4500; /* Orangered for favorited */
+    color: white;
+}
+.MovieCard .MovieInfo .watched {
+    background-color: #00bfff; /* DeepSkyBlue for liked */
+    color: white;
+}
