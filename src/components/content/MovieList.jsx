@@ -16,7 +16,7 @@ const MovieList = ({query, filter}) => {
 
     const fetchMovies = async () => {
         const apiKey = `dca23ffe8c65106addc1986590090072`;
-        let url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&sort_by=${filter}&page=${page}`;
+        const url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&sort_by=${filter}&page=${page}`;
 
         
 
@@ -79,7 +79,6 @@ const MovieList = ({query, filter}) => {
                     <span><h2>{selectedMovie.title}</h2><p className="Rating">★ {selectedMovie.vote_average.toFixed(1)}</p></span>
                     <iframe width="90%" height="90%" src="https://www.youtube.com/embed/LEjhY15eCx0"/>
                     <p>{selectedMovie.overview}</p>
-                    
                 </Modal>
             )}
         </div>

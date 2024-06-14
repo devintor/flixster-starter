@@ -76,12 +76,23 @@
     cursor: pointer;
     background-color: #ccc;
     color: #333;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: #828282;
+    }
 }
 .MovieCard .MovieInfo .favorited {
     background-color: #ff4500; /* Orangered for favorited */
     color: white;
+    &:hover {
+        background-color: #8e2600;
+    }
 }
 .MovieCard .MovieInfo .watched {
     background-color: #00bfff; /* DeepSkyBlue for liked */
     color: white;
+    &:hover {
+        background-color: #0085b1;
+    }
 }
