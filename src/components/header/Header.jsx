@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import devflix from '/Users/dvntor/Desktop/codepath/flixster-starter/src/assets/devflix.png';
+import devflix from './devflix.png';
 import './Header.css'
 
 const Header = ({ query, setQuery, setFilter, resetFilters}) => {
