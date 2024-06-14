@@ -63,10 +63,6 @@ If I had more time, I would have used the youtube api to get trailers for each m
 
 I appreciated that my peers liked my general aesthetics, such as the hover effect for each movie card, the Devflix logo, and some other subtle styling features. Something that I noticed from a peer and implemented was the live search by keystroke input, rather than waiting for a submit button to be pressed.
 
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
-
 ### Shout out
 
 I'd like to really thank Cristobal, because he was incredibly helpful in fostering my understanding of fetching data from the TMDb api. I also want to thank Emmanuel, Lauryn, and David for daily miscellaneous support. Lastly, I'd like to thank my advisor Thomas for a very insightful check in -- it was great to take a break and have a genuine conversation with someone who very visibly cares.
